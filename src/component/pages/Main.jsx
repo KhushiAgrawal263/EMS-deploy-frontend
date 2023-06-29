@@ -37,7 +37,7 @@ const Main = () => {
 
   const user = JSON.parse(localStorage.getItem("EMSuser"));
   const userId = user.id;
-  const userURL = `/${userId}`;
+  const userURL = `https://emsapi.onrender.com/${userId}`;
   const location = useLocation();
 
   if (user) {

@@ -1,0 +1,80 @@
+.photoDiv {
+    display: flex;
+    flex-direction : column
+}
+
+.btn-main{
+    margin-top: 2rem;
+    margin-left: 32rem;
+}
+
+.upload-btn{
+    position: relative;
+    left : -385px;
+    margin-top: 10px;
+}
+.employeeAddBg{
+    /* border: 2px solid black; */
+    /* padding: 70px 30px; */
+    padding : 90px 40px 20px 143px;
+}
+
+.employeeAdd {
+    /* border: 2px solid red; */
+    border-radius: 15px;
+    background-color: #f9f9fc;
+    padding: 20px;
+}
+
+.employeeAdd h4{
+    margin : 20px;
+}
+
+.employeeAdd button {
+    margin-left : 900px;
+    width : 150px;
+}
+
+.passwordField{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    /* border: 2px solid red; */
+}
+
+.eyePassword{
+    margin: 10px;
+}
+.pDetails tr th {
+    /* border: 2px solid black; */
+    width: 30%;
+}
+.employeeAddBtn {
+    /* border: 2px solid red; */
+    text-align: left;
+    margin: 20px;
+    padding-left: 30px;
+}
+
+.set-you-profile-photo {
+    font-weight: 650;
+    font-size: 1.05rem;
+}
+.employeePhotoUploadDiv{
+    margin: 10px;
+}
+
+@media only screen and (max-width: 600px){
+    .employeeAdd {
+        margin-left : 90px;
+        padding-left : 0px;
+    }
+    .employeeAdd button {
+        margin-left : 30px;
+        width : 100%;
+    }
+    .employeeAdd .pDetails {
+        /* border : 2px solid black; */
+        width : 110%
+    }
+}

@@ -1,0 +1,14 @@
+
+
+.footer div {
+    /* border : 2px solid black; */
+    text-align : center;
+    padding : 8px;
+    color : darlBlue;
+    background : #fff;
+    /* background-image: linear-gradient(to left, black , blue); */
+
+    /* color : white; */
+    margin-top : 10px;
+    font-size  : 1rem;
+}

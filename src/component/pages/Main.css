@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Poppins&family=Roboto:ital,wght@0,700;1,400&display=swap');
+
+.main {
+    /* border: 2px solid red; */
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #f9f9fc;
+}
+.mainBg {
+    /* border: 2px solid black; */
+    padding: 100px 30px 30px 140px;
+
+}
+.mainInfo{
+    display : flex
+}
+
+.mainInfo img {
+    height : 200px;
+    width : 200px;
+    border-radius : 50%;
+    border : 3px solid #15074e;
+    padding: 10px;
+    margin: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mainInfoName {
+    /* border: 2px solid black; */
+    margin-top : 70px;
+    font-family: 'Roboto', sans-serif;
+} 
+.mainInfoName h1 {
+    font-weight: 700;
+    font-size: 2.8rem
+}
+
+.mainInfoName h3{
+    position : relative;
+    font-weight: 500;
+    font-size : 1.4rem;
+    font-style: italic;
+    color : #858282;
+    top : -10px
+}
+.photoDiv {
+    display: flex;
+    flex-direction : column
+}
+.photoDiv img { 
+    object-fit : cover
+}
+.photoInput {
+    width : 100px;
+    margin-left: 90px;
+    display : none ! important
+}
+
+.mainButtonEdit {
+    color: #f9f9fc;
+    background-color: #15074e;
+    padding: 5px 20px;
+    border-radius: 3px;
+
+    /* margin: 10px; */
+    height: 35px;
+    transition: all 0.3s ease-in;
+    border: 2px solid #15074e;
+}
+
+.mainButtonEdit:hover {
+    border: 2px solid #15074e;
+    color: #15074e;
+    background-color: #f9f9fc;
+}
+
+.main-card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.personal {
+    display : flex;
+    justify-content : space-between
+}
+
+.personal button {
+    color: #f9f9fc;
+    background-color: #15074e;
+    border: none;
+}
+.save-button {
+    padding : 3px;
+    width : 100px;
+    border-radius : 5px;
+    color : #f9f9fc;
+    background : #15074e;
+    border: 2px solid #15074e;
+    font-size : 1.1rem;
+    font-weight : 700;
+    border : none;
+    float: right;
+    /* margin-left : 380px; */
+    margin-top: 10px;
+    transition: all 0.3s ease-in;
+}
+.save-button:hover {
+    color: #15074e;
+    background-color: #f9f9fc;
+    border: 2px solid #15074e;
+}
+.card1 {
+    display : flex
+}
+.card-professional{
+    background-color : #ebebfc;
+}
+
+.card {
+    margin: 30px;
+    width: 45%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 1s ease;
+    animation-name : cards;
+    animation-duration : 2s;
+}
+
+.cardHeading {
+    width : 100%;
+    padding: 20px;
+    font-size: 1.4rem;
+    background : #15074e;
+    border-radius : 2px;
+    color : #f9f9fc;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cradElemet {
+    padding : 20px;
+    background : #ebebfc;
+    height: 100%;
+}
+
+.cardDetails {
+    display : flex;
+    flex-direction : row;
+}
+
+.cardALink{
+    text-decoration: none;
+    color:black;
+    width:500px;
+}
+
+.cardALink:hover{
+    text-decoration: underline;
+}
+.cardQ {
+    padding-bottom: 8px;
+    font-weight : 700;
+    font-size : 1.1rem;
+    width: 40%;
+}
+
+.cardQA {
+    padding-bottom: 8px;
+    font-weight : 700;
+    font-size : 1.1rem;
+    width: 8%;
+}
+
+.cardA {
+    display: flex;
+    font-size : 1.1rem;
+}
+
+.cardA input ,
+.cardA select{
+    width: 200px;
+    margin:4px;
+    font-size: 1rem;
+    padding-left: 5px;
+}
+
+.all-profile{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.insta{
+    height:26px;
+    width:26px;
+    position: relative;
+    left:4px;
+}
+.social-i{
+    height:40px;
+    width:40px;
+    object-fit: inherit;
+}
+
+.linked{
+    color: #0e76a8;
+}
+
+.twit{
+    color: #00acee;
+}
+.after-edit{
+    display: flex; 
+    float: right;
+    gap:5px;   
+}
+
+.disable{
+    padding : 3px;
+    width : 100px;
+    border-radius : 5px;
+    color : #f9f9fc;
+    background : #15074e;
+    border: 2px solid #15074e;
+    font-size : 1.1rem;
+    font-weight : 700;
+    border : none;
+    float: right;
+    /* margin-left : 380px; */
+    margin-top: 10px;
+    transition: all 0.3s ease-in; 
+    opacity:0.3;
+}
+@keyframes cards{
+    from {left : -1000px;}
+    to {left : 0px;}
+}
+
+  @media only screen and (max-width: 600px){
+    .main {
+        overflow : hidden
+    }
+    .mainInfo {
+        flex-direction : column
+    }
+    .mainInfoName{
+        margin-top : 40px;
+    }
+    .photoInput{
+        width : 70px
+    }
+    .card1 {
+        flex-direction : column;
+        width : 100%;
+    }
+    .card {
+        margin :10px 0px;
+        width : 95%
+    }
+
+    .cardA, .cardQ{
+        font-size : 1rem
+    }
+    .mainSaveButton {
+        border : 2px solid red;
+    }
+}
+.onboarding{
+    color: rgb(234, 95, 95);
+    font-size: 1.2rem;
+    margin-left: -14rem;
+    position: absolute;
+    top: 360px;
+}

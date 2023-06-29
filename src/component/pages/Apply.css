@@ -1,0 +1,186 @@
+.apply {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #f9f9fc;
+}
+
+.applyBg {
+  padding: 120px 40px 40px 150px;
+}
+
+h2 {
+    /* border : 2px solid black; */
+    text-align : center;
+    text-shadow: 0 0 3px #727375;
+}
+
+.availableLeaveBalance {
+    /* border : 2px solid black; */
+    width : 400px;
+    text-align : center;
+    margin : 30px 450px;
+    border-radius : 5px;
+    background : #e8e9eb;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.availableLeaveBalance h3 {
+    font-size : 1.4rem;
+    margin: 10px;
+    padding-top : 10px
+}
+
+.availDiv{
+    display : flex;
+    justify-content : space-around;
+    font-size : 1rem;
+}
+
+.applycal {
+    display : flex;
+    margin: 50px
+}
+
+.cal {
+    margin : 30px;
+}
+.holidayColor {
+    margin : 60px 20px;
+    /* border : 2px solid red; */
+}
+.holidays {
+    display : flex;
+}
+.hdiv{
+    background : black;
+    height : 22px;
+    width : 22px;
+    margin: 10px;
+}
+.RLeave {
+    margin-top : 7px
+}
+
+.blueDiv {
+    background : #5086de
+}
+.yellowDiv {
+    background : #ded050
+}
+.grayDiv {
+    background : #a19f9f
+}
+.greenDiv {
+    background : #50de68
+}
+.redDiv {
+    background : #de5950
+}
+
+.leaveBox {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* border: 2px solid black; */
+    margin: 80px;
+    padding : 40px;
+    border-radius : 5px;
+}
+
+.BoxDate {
+    display : flex;
+}
+
+.leaveButton {
+    text-align : right
+}
+
+.leaveButton button {
+    margin : 10px;
+}
+
+.leaveDoc p{
+    font-size : 0.8rem;
+    margin: 5px;
+}
+
+.sdate, .edate, .select, .noOfDay, .detailReason,.leaveDoc{
+    display : flex;
+    flex-direction : column;
+    justify-content : space-around;
+    font-weight : 500;
+    margin: 5px;
+    padding : 10px
+}
+input, select, textarea {
+    border-radius : 5px;
+    /* margin: 5px; */
+}
+
+.noOfDay input {
+    width : 100px;
+}
+.select select {
+    width : 150px
+}
+
+.highlight1 {
+    /* color:red; */
+    background : red;
+    border-radius : 5px
+  }
+    
+.highlight2 {
+    background:#5086de;
+    border-radius : 5px
+
+
+}
+
+.highlight3 {
+    background:#ded050;
+    border-radius : 5px
+
+}
+
+.highlight4 {
+    background:#50de68;
+    border-radius : 5px
+
+}
+
+@media only screen and (max-width: 600px) {
+    .apply {
+        margin : 0px;
+    }
+    .availableLeaveBalance{
+        margin : 20px 130px;
+        width : 300px;
+    }
+    .applycal {
+        flex-direction : column;
+        margin : 0px 60px;
+    }
+    .cal {
+        width : 370px;
+    }
+    .holidayColor {
+        margin : 10px 30px;
+    }
+    .BoxDate {
+        flex-direction : column;
+    }
+    .leaveBox{
+        width : 390px;
+    }
+    .sdate, .edate, .select, .noOfDay, .detailReason{
+        /* display : flex; */
+        /* border : 2px solid black; */
+        width : 320px;
+        margin : 0;
+    }
+    .leaveButton{
+        display : flex;
+        flex-direction : column
+    }
+}
+
+
+

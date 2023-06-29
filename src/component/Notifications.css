@@ -1,0 +1,63 @@
+.notifications{
+    position: relative;
+    text-align: center;
+    width: 400px;  
+    animation: 0.8s notificationAnimation;
+    /* max-height: 500px;
+    overflow-y: scroll; */
+}
+.notificationTriangle{
+    position: relative;
+    left: 169px;
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid white;
+}
+
+.overallNotification{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+.UnseenInnerDiv{
+    /* background-color: #83e68b; */
+    border-radius: 4px;
+    padding: 3px;
+    margin: 8px;
+    animation: 0.8s LinearAnimation;
+    background-color: #ebebfc;
+    color: #15074e;
+}
+.seenInnerDiv{
+    /* border: 2px solid black; */
+    border-bottom: 1px solid rgb(178, 176, 176) ;
+    animation: 0.8s LinearAnimation;
+}
+.UnseenInnerDiv p, .seenInnerDiv p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+@keyframes LinearAnimation {
+    from{
+        transform: translate(0, -200px);
+    }
+    to{
+        transform: translate(0,0);
+    }
+    
+}
+
+@keyframes notificationAnimation {
+    from{
+        transform: translate(0, -200px);
+    }
+    to{
+        transform: translate(0,0);
+    }
+}

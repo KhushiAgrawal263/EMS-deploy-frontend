@@ -1,0 +1,89 @@
+.nav {
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #15074e;
+    color: white;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.userNavBar {
+    display: flex;
+    /* border: 2px solid white; */
+    padding: 0px 0px 0px 60px;    
+}
+
+.userNavBar img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.userNavBar p{
+    font-size: 1.2rem;
+    padding-left: 10px;
+    /* border: 2px solid red; */
+    font-weight: 600;
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.userNavBar span{
+    position: relative;
+    top: -5px;
+    font-size: 0.8rem;
+    /* border: 2px solid green; */
+    margin: 0px;
+    font-style: italic;
+    font-size: 600;
+    color: #d1d1d1;
+    margin-left: 20px;
+    padding: 0px;
+}
+
+.navbarButton {
+    margin: 0px 80px 0px 0px;  
+    /* border: 2px solid red;   */
+    /* width: 10%; */
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.navbarButton button {
+    margin: 5px 10px;
+    background-color: #ebebfc;
+    color: #15074e;
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s linear;
+}
+
+.navbarButton button:hover {
+    color: #260c91;
+    background-color: #bdb8d1;
+}
+
+.navbarButton button img {
+    height: 30px;
+    padding: 0px 7px;
+    color: #bdb8d1;
+}
+
+.navNotification{
+    position: absolute;
+    top: 47px;
+    left: 1200px;
+    max-height: 500px;
+}
+
+.badge {
+    margin-right: 92px;
+    /* height: 18px; */
+    width: 22px;
+    /* padding: 80px; */
+}

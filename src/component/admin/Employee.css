@@ -1,0 +1,129 @@
+/* .addButton {
+    display: flex;
+    margin : 50px;
+    text-align : right;
+    justify-content: space-between;
+    padding-bottom: -5rem;
+} */
+
+.addButton{
+    /* border: 2px solid black; */
+    display: flex;
+    padding: 10px 0px 0px 30px;
+}
+
+.count, .countNum {
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin: 5px;
+}
+
+.count {
+    color: #15074e;
+}
+
+.countNum {
+    color: #c6baf5;
+}
+
+.employeeButton{
+    background-color: #ebebfc;
+    color: #15074e;
+    padding: 7px 13px;
+    border-radius: 5px;
+    font-weight: 700;
+    text-decoration: none;
+    border: 2px solid #15074e;
+    transition: background-color 0.4s ease-in;
+    /* margin-left: 100px; */
+}
+
+.find{
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+.search{
+    border:1px solid #15074e;
+    background-color: transparent;
+    padding:6px;
+}
+.employeeButton:hover {
+    background-color: #15074e;
+    color: #ebebfc;
+}
+
+.addEmployee {
+    /* border: 2px solid red; */
+    margin-left : 100px;
+    padding : 80px 20px 20px 20px;
+    background-color: #ebebfc;
+    min-height: 100vh;
+}
+
+.employeeBG{
+    background-color: #f9f9fc;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    min-height: 90vh;
+    /* text-align: center; */
+}
+
+.overallCard{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card1div img {
+    height : 150px;
+    width : 150px;
+    margin : 20px;
+    object-fit: cover;
+    border-radius: 50%;     
+}
+
+.card1div{
+    margin:20px 10px;
+    padding: 10px;
+    display: flex;
+    width: 31%;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #ebebfc;
+    animation: zooms 1s  ;
+    /* background-color: #ebebfc; */
+}
+.card1div:hover{
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+.mainCardContent{
+    padding-top: 40px;
+}
+
+.mainCardContent p{
+    font-size: 1rem;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    .addEmployee{
+        margin-left : 10px;
+        /* width : 300px; */
+        /* padding : 70px;  */
+    }
+    .overallCard{
+        flex-direction: column;
+    }
+    .card1div{
+        width: 115%;
+    }
+    .addButton{
+        text-align : left;
+        margin : 10px;
+        width : 100%
+    }
+}

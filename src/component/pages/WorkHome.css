@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+.workHome {
+    /* padding-left : 100px;
+    padding-top : 70px; */
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #f9f9fc;
+    min-height: 78vh;
+}
+
+.workHomeBg {
+  padding: 120px 40px 40px 150px;
+  min-height: 100vh;
+}
+
+.workHome h1 {
+    font-family: 'Bakbak One', cursive;
+    /* text-decoration : underline; */
+    margin : 5px;
+    text-align : center;
+    color: #15074e;
+}
+
+.workDate {
+    /* border : 2px solid black; */
+    text-align : center;
+    margin : 30px;
+}
+
+.workDate input {
+    width : 300px;
+    height : 40px;
+    padding : 10px;
+    border-radius : 10px;
+    font-size : 1.2rem;
+    font-weight : 700;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border : 2px solid #15074e;
+}
+
+.workDate input:hover {
+    background : gray
+}
+
+.DayBtn{
+    margin : 20px;
+    width : 200px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #15074e;
+    color: #ebebfc;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: 2px solid #15074e;
+    transition: all 0.3s ease-in-out;
+}
+.DayBtn:hover{
+    background-color: #ebebfc;
+    color: #15074e;
+    border: 2px solid #15074e;
+}
+
+.DayBtn1{
+    margin : 20px;
+    width : 200px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    background-color: #ebebfc;
+    color: #15074e;
+    border: 2px solid #15074e;
+}
+.DayBtn1:hover{
+    background-color: #15074e;
+    color: #ebebfc;
+    border: 2px solid #ebebfc;
+}
+
+
+
+.FullDay {
+    /* border : 2px solid black; */
+    padding : 50px;
+    margin : 30px;
+    border-radius : 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.timeBlock {
+    display : flex;
+    justify-content : space-between;
+    margin : 30px;
+}
+
+.time {
+    /* border : 2px solid black; */
+    width : 200px;
+    text-align : center;
+    padding : 10px;
+    border-radius : 5px;
+    color : #15074e;
+    background : #ebebfc;
+    font-weight : 700;
+    font-size : 1rem
+}
+
+.addTask {
+    /* border : 2px solid red; */
+    width : 1200px;
+    display : flex;
+    justify-content : space-between
+}
+
+.addTask input {
+    border: 2px solid black;
+    width : 600px;
+    padding : 5px;
+    border-radius : 5px;
+    font-size: 1.2rem;
+}
+
+.timeBlock button {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background : #15074e;
+    color: #ebebfc;
+    /* border : none; */
+    border: 2px solid #15074e;
+    transition: all 0.3s ease-in-out;
+}
+
+.timeBlock button:hover {
+    background-color: #ebebfc;
+    color: #15074e;
+    border: 2px solid #15074e;
+}
+
+.Task {
+    border: 2px solid black;
+    width : 600px;
+    padding : 5px;
+    border-radius : 5px;
+    font-size: 1.2rem;
+}
+
+.break {
+    /* border : 2px solid black; */
+    background : #ebebfc;
+    color: #15074e;
+    text-align : center;
+    padding : 5px;
+    /* color : white; */
+    font-size : 1rem;
+    font-weight : 700;
+}
+
+p{
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+    .DayBtn{
+        width : 90%;
+        margin : 10px;
+    }
+    .FullDay {
+        margin : 10px;
+        padding : 15px;
+    }
+    .addTask {
+        /* display : flex; */
+        flex-direction : column;
+    }
+    .time {
+        width : 100%
+    }
+    .addTask input {
+        margin : 5px 0px;
+        width : 100%;
+    }
+    .Task{
+        width : 100%;
+        margin : 5px 0px;
+    }
+
+
+
+}

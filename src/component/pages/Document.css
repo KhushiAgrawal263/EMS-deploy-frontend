@@ -1,0 +1,100 @@
+.document{
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+    min-height: 80vh;
+    /* border: 2px solid black; */
+}
+.documentBg{
+  /* border: 2px solid red; */
+  padding: 120px 40px 40px 150px;
+
+}
+.document h2{
+    text-align: left;
+    margin: 10px;
+    color: #15074e;
+}
+
+.document p{
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
+
+.documentClass {
+    margin: 50px;
+    /* text-align: center; */
+}
+
+.documentClass img{
+    margin: 5px;
+}
+
+.documentClass input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: #084cdf;
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+  }
+  
+ .documentClass input[type=file]::file-selector-button:hover {
+    background: #0d45a5;
+  }
+
+
+  .disabledocumentbutton {
+    margin-right: 20px;
+    width: 100px;
+    border: none;
+    background: #084cdf;
+    opacity:0.5;
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+  }
+
+  .documentbutton {
+    margin-right: 20px;
+    width: 100px;
+    border: none;
+    background: #084cdf;
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+  }
+
+  .documentbutton:hover {
+    background: #0d45a5;
+  }
+
+  .documentClass .status {
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+
+  .documentClass .lastDate{
+    font-weight: 500;
+  }
+
+  .documentClass .documentSubmit{
+    text-align: right;
+        /* border: 2px solid black; */
+  }
+
+  .documentClass .documentSubmit button{
+    margin: 10px;
+  }
+
+  .documentClass .documentSubmit button:disabled{
+    margin: 10px;
+    color: #084cdf;
+  }
+

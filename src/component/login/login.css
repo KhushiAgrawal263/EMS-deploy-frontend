@@ -1,0 +1,108 @@
+.login {
+    position : relative;
+    width : 650px;
+    padding : 50px;
+    background : #fff;
+    height : 90vh;
+    /* border-radius : 15px; */
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    /* border: 2px solid #15074e; */
+}
+
+.logoinDiv{
+    display : flex;
+    border-radius : 15px;
+    /* box-shadow: 3px 3px 5px 2px #d9e3f0; */
+}
+
+.LoginBack {
+   /* border: 2px solid black; */
+   background-color: #ebf3ff;
+  align-items: center;
+  padding: 40px 140px;
+}
+.laptop{
+    /* background-color: #15074e; */
+    width : 75%;
+    height : 90vh;
+}
+.laptop img{
+    width : 100%;
+    height : 100%;
+    /* border-radius : 15px; */
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.chooseAccountType{
+    text-align : center;
+    font-size : 1.4rem;
+    font-weight : 500;
+}
+
+.userIcon {
+    display : flex;
+    justify-content : space-around;
+    margin : 30px;
+    width : 80%
+}
+
+.admin, .user{
+    display : flex;
+    flex-direction : column;
+    border : 2px solid #6e6d6d;
+    padding : 20px;
+    border-radius : 5px;
+    text-align : center;
+    font-weight : 500;
+    z-index : -1
+}
+
+.admin:hover,
+.user:hover {
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.img1  {
+    height : 90px;
+}
+
+.tick {
+    position : relative;
+    top : -25px;
+    left : 50;
+    height: 50px;
+    width : 50px;
+    z-index : 9
+}
+
+.login p {
+    margin : auto;
+    text-align : center;
+    font-size : 1rem;
+    font-weight : 500;
+}
+
+.form-group {
+    margin : 20px;
+    font-weight : 500;
+}
+
+.login button{
+    margin : 20px;
+    width : 93%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    font-weight: 500;
+    border: 2px solid #15074e;
+    color: #15074e;
+    transition: all 0.3s linear;
+}
+
+.login button:hover {
+    background-color: #15074e;
+    color: #d9e3f0;
+}

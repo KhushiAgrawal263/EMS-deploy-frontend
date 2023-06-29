@@ -1,0 +1,196 @@
+.calOverallDiv{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  /* border: 2px solid black; */
+  min-height: 85vh;
+  border-radius: 15px;
+  background-color: #f9f9fc;
+
+}
+.calBg {
+  /* border: 2px solid red; */
+  min-height: 100vh;
+  padding : 90px 40px 20px 143px;
+
+}
+.adminCal1{
+  opacity: 0.2;
+  width: 80%;
+  /* background-color: black; */
+}
+.adminCal {
+  opacity: 1;
+  /* border: 2px solid black; */
+  width: 90%;
+}
+.adminCal h2{
+    margin: 20px;
+    text-align: left;
+}
+.adminCal-container{
+    justify-content: center;
+    margin: 40px;
+}
+.leaveCalCard {
+    display: flex;
+    /* border: 2px solid black; */
+    margin: 20px;
+    border-radius: 5px;
+    width: 20%;
+    /* text-align: center; */
+    background-color: #a8f0bb;
+    animation: zooms 1s  ;
+
+}
+.sideCalLeave{
+    width: 10px;
+    background-color: green;
+    margin-right: 10px;
+}
+.adminCalCards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.calLeaveContent{
+    padding: 10px;
+}
+.calLeaveContent p{
+    margin: 0;
+    font-size: 1rem;
+}
+
+.wfhCalCard{
+    display: flex;
+    margin: 20px;
+    border-radius: 5px;
+    width: 20%;
+    background-color: #a8c5f0;
+    animation: zooms 1.5s  ;
+
+}
+.sideCalWfh{
+    width: 10px;
+    background-color: #0c68f2;
+    margin-right: 10px;
+}
+
+.cal-details{
+  padding-left: 50px;
+}
+
+@keyframes zooms {
+    from{
+        transform:scale(0,0);
+    }
+    to{
+        transform: scale(1,1);
+    }
+
+}
+
+.react-calendar__tile--active {
+    background: #a9d4ff;
+    color: white;
+  }
+
+.react-calendar button {
+    position: relative;
+    margin: 0;
+    border: 0;
+    outline: none;
+}
+
+.highlightbtn1::before {
+    color:#f78536;
+    position: absolute;
+    content: '•';
+    font-size: 2rem;
+    top: -1px;
+    left: 55px;
+    z-index: 10;
+ }
+
+ .buttonCal1{
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  /* padding: 0.75em 1em; */
+  padding: 10px;
+  background-color: #15074e;
+  color: #ebebfc;
+  border: 0.15em solid #15074e;
+  border-radius: calc(0.75em + 0.5em + 0.15em);
+ }
+
+ .buttonCal1:hover {
+  color: #15074e;
+ }
+
+ .buttonCal {
+  display: inline-block;
+  position: relative;
+  /* z-index: 1; */
+  overflow: hidden;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  /* padding: 0.75em 1em; */
+  padding: 10px;
+  color: #15074e;
+  border: 0.15em solid #15074e;
+  background-color: #ebebfc;
+  border-radius: calc(0.75em + 0.5em + 0.15em);
+  transition: 4s;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
+}
+.buttonCal:before, .buttonCal:after {
+  content: '';
+  position: absolute;
+  top: -1.5em;
+  z-index: -1;
+  width: 200%;
+  aspect-ratio: 1;
+  border: none;
+  border-radius: 40%;
+  /* background-color: rgba(0, 0, 255, 0.25); */
+  background-color: #15074e;
+  transition: 4s;
+}
+
+.buttonCal:before {
+  left: -80%;
+  transform: translate3d(0, 5em, 0) rotate(-340deg);
+}
+.buttonCal:after {
+  right: -80%;
+  transform: translate3d(0, 5em, 0) rotate(390deg);
+}
+.buttonCal:hover, .buttonCal:focus {
+  
+  color:#ebebfc;
+  background-color: #15074e;
+}
+.buttonCal:hover:before, .buttonCal:focus:before, .buttonCal:hover:after, .buttonCal:focus:after {
+  transform: none;
+  /* background-color: rgba(0, 0, 255, 0.75); */
+  background-color: #eb4034;
+}
+
+.admin-cal-head{
+  margin-right: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .addHoliday{
+  width: 300px;
+  border: 2px solid black;
+    padding-bottom: 50px;
+    padding-top : 80px;
+    margin-left: 1200px;
+} */

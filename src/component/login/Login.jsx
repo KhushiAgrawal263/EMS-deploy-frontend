@@ -22,7 +22,7 @@ const Login = () => {
       role: role,
     };
     console.log(value);
-    const response = await fetch("/login", {
+    const response = await fetch("https://emsapi.onrender.com/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
